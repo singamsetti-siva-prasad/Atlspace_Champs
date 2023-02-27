@@ -1,0 +1,24 @@
+.connect-button {
+  background: linear-gradient(
+    89.94deg,
+    #2a07ff 0.04%,
+    #3ef7d2 133.09%,
+    #3fffd1 175.49%
+  );
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0px;
+  padding: 10px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15.2222px;
+  float: right;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+@media screen and (max-width: 840px) {
+  .connect-button {
+    float: none;
+  }
+}

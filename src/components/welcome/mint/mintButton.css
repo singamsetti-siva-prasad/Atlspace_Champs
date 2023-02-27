@@ -1,0 +1,12 @@
+.mint-button {
+  background: linear-gradient(90.02deg, #2a07ff 10.14%, #3fffd1 118.67%);
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+  border: 0px;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
