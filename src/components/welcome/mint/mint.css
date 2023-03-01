@@ -12,7 +12,7 @@
 }
 .mint-image {
   width: 146px;
-  margin-top: 6%;
+  margin: 6% 0%;
   border-radius: 50%;
 }
 .value {
@@ -49,8 +49,7 @@
 .current-price-text {
   float: left;
   margin-left: 7%;
-  font-size: 0.9vw;
-  font-family: harmattan;
+  font-size: 20px;
 }
 @media screen and (max-width: 840px) {
   .current-price-text {

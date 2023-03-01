@@ -59,7 +59,7 @@ function Team() {
       <br />
       <span className="team-span">
         <img
-          src={require("./image5.png?auto=compress")}
+          src={require("./imageg4.png?auto=compress")}
           className="team-image"
         />
         <span className="team-name">
@@ -75,7 +75,7 @@ function Team() {
       </span>
       <span className="team-span">
         <img
-          src={require("./imag4.png?auto=compress")}
+          src={require("./image4.png?auto=compress")}
           className="team-image"
         />
         <span className="team-name">
@@ -96,7 +96,7 @@ function Team() {
 
       <span className="team-span">
         <img
-          src={require("./image7.png?auto=compress")}
+          src={require("./image6.png?auto=compress")}
           className="team-image"
         />
         <span className="team-name">

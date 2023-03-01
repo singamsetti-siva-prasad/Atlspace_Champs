@@ -10,9 +10,11 @@ export default function Navbar() {
         <nav id="menu">
           <input type="checkbox" id="responsive-menu" />
           <label></label>
-          <span className="sl-container">
-            <img className="sl-logo" src={require("./logo.png")} alt="" />
-          </span>
+          <div className="sl-container">
+            <HashLink smooth to="/#home">
+              <img className="sl-logo" src={require("./logo.png")} alt="" />
+            </HashLink>
+          </div>
           <ul>
             <Connect />
             <Onramper />
@@ -28,7 +30,7 @@ export default function Navbar() {
 
             <li>
               <HashLink smooth to="/#faq" className="link">
-                Faq
+                FAQ
               </HashLink>{" "}
             </li>
             <li>

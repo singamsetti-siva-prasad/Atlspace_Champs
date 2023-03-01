@@ -27,10 +27,10 @@ function Faq() {
         FAQ's
       </h1>
       <details open>
-        <summary> What is ALT Space Captains NFT?</summary>
+        <summary> What is ALT Space Champs NFT?</summary>
         <div className="faq__content">
           <p>
-            It is 1 of unique 9,999 NFTs on the Polygon blockchain that will
+            It is 1 of unique 10,000 NFTs on the Polygon blockchain that will
             have future utilities for Web3 Builders.
           </p>
         </div>

@@ -27,6 +27,8 @@
 .welcome-text {
   color: white;
   font-size: 20px;
+  line-height: 30px;
+  /* line-height: 15px; */
 }
 @media screen and (max-width: 840px) {
   .welcome-div2 {

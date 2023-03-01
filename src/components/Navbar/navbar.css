@@ -1,12 +1,9 @@
 .sl-container {
-  margin-top: 0px;
 }
 .sl-logo {
-  margin-top: 0px;
   float: left;
+  width: 90px;
   margin-left: 10px;
-  width: 40px;
-  margin-top: 10px;
 }
 .sl-text {
   float: left;

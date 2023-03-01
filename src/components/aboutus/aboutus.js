@@ -24,7 +24,7 @@ const About = () => {
 
       <div className="part2">
         <p>
-          The holders of ALT Space Captains NFTs can participate in an exclusive
+          The holders of ALT Space Champs NFTs can participate in an exclusive
           forum that is designed to connect Web3 builders from all around the
           globe. This is a great opportunity to network and collaborate with
           others who are passionate about the same things that you are!
@@ -32,7 +32,7 @@ const About = () => {
 
         <p>
           Whether you manage a Web3 product, a service startup, a blockchain
-          company, or a de-fi solution, you can grab our Captains NFT to engage
+          company, or a de-fi solution, you can grab our Champs NFT to engage
           with similar players in the ALT Space.
         </p>
 
