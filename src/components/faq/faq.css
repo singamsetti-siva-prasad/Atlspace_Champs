@@ -1,6 +1,6 @@
 .faq-heading {
   text-transform: uppercase;
-  background: linear-gradient(90.02deg, #2a07ff 10.14%, #3fffd1 118.67%);
+  background: linear-gradient(to right, #3fff47 0%, #3fffd1 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 10%;
@@ -17,13 +17,9 @@ summary {
   outline: none;
   text-align: left;
   cursor: pointer;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid green;
   position: relative;
   left: 10%;
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 10px;
-  border-image: linear-gradient(to bottom, #2a07ff, #3fffd1) 1 40%;
 }
 details > summary::after {
   position: absolute;

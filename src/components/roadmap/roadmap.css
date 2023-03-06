@@ -1,7 +1,6 @@
 .roadmap-heading {
   text-transform: uppercase;
-  background: linear-gradient(90.02deg, #2a07ff 10.14%, #3fffd1 118.67%);
-
+  background: linear-gradient(to right, #3fff47 0%, #3fffd1 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-top: 10%;
@@ -12,7 +11,7 @@
   border: 3px solid;
   text-align: left;
   border: 3px solid;
-  border-image: linear-gradient(to right, #2a07ff, #3fffd1) 1;
+  border-image: linear-gradient(to right, #3fff47, #3ef7d2) 1;
 }
 .main-div {
   width: 25%;
@@ -31,7 +30,7 @@
   border: 3px solid;
   width: 50px;
   height: 50px;
-  border-image: linear-gradient(to right, #2a07ff, #3fffd1) 1;
+  border-image: linear-gradient(to right, #3fff47, #3ef7d2) 1;
   border-bottom: 0px;
   border-radius: 10px;
   margin: 0 auto;

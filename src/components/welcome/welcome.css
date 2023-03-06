@@ -19,8 +19,7 @@
 .welcome-heading1 {
   font-size: 4vw;
   text-transform: uppercase;
-  background: linear-gradient(90.02deg, #2a07ff 10.14%, #3fffd1 118.67%);
-
+  background: linear-gradient(to right, #3fff47 0%, #3fffd1 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }

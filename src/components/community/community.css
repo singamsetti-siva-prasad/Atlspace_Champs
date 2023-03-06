@@ -11,12 +11,12 @@
   font-size: 6vw;
 }
 .community-button {
-  background: linear-gradient(90.02deg, #2a07ff 10.14%, #3fffd1 118.67%);
+  background: linear-gradient(89.94deg, #3fff47 0.04%, #3fffd1 175.49%);
   border-radius: 5px;
   padding: 2%;
   border: 0;
   font-weight: bold;
-  color: white;
+  color: black;
 }
 @media screen and (max-width: 840px) {
   .community-div1 {

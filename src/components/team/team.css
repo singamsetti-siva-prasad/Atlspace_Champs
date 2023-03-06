@@ -10,8 +10,7 @@
 .team-heading {
   text-transform: uppercase;
   margin-bottom: 4%;
-  background: linear-gradient(90.02deg, #2a07ff 10.14%, #3fffd1 118.67%);
-
+  background: linear-gradient(to right, #3fff47 0%, #3fffd1 100%);
   font-weight: 600;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -20,7 +19,7 @@
   width: 50%;
   display: inline-block;
   border: 3px solid;
-  border-image: linear-gradient(to right, #2a07ff, #3fffd1) 1;
+  border-image: linear-gradient(to right, #3fff47, #3ef7d2) 1;
 }
 .team-text {
   font-size: 1vw;
