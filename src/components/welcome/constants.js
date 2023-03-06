@@ -1,4 +1,4 @@
-export const contractAddress = "0x9efBEa93c43B5E008A03A359914FD22b399c02C3";
+export const contractAddress = "0xE04Efe546571A21A791149C05adbFa3a489265bd";
 export const abi = [
   { inputs: [], stateMutability: "payable", type: "constructor" },
   {
@@ -239,6 +239,13 @@ export const abi = [
       { internalType: "bool", name: "approved", type: "bool" },
     ],
     name: "setApprovalForAll",
+    outputs: [],
+    stateMutability: "nonpayable",
+    type: "function",
+  },
+  {
+    inputs: [{ internalType: "uint256", name: "_quantity", type: "uint256" }],
+    name: "setMaxPerWallet",
     outputs: [],
     stateMutability: "nonpayable",
     type: "function",

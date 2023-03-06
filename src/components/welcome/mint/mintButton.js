@@ -41,7 +41,7 @@ export function MintButton() {
             to: contractAddress,
             maxPriorityFeePerGas: 250000000000,
             maxFeePerGas: 250000000000,
-            value: 1 * 0.01 * 10e17,
+            value: 1 * 1 * 10e17,
             // gas: 21000,
             data: contractInstance.methods.mint(1).encodeABI(),
           };
