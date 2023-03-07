@@ -12,7 +12,7 @@ export function MintButton() {
         package: WalletConnectProvider,
         options: {
           alchemyId: process.env.REACT_APP_ALCHEMY_ID,
-          chainId: 80001,
+          chainId: 137,
           rpc: {
             1: process.env.REACT_APP_ALCHEMY_URL,
           },
@@ -34,8 +34,10 @@ export function MintButton() {
       const balance = web3.eth.getChainId();
 
       balance.then((r) => {
-        if (r === 80001) {
+        if (r === 137) {
           const contractInstance = new web3.eth.Contract(abi, contractAddress);
+          // const mintPrice = contractInstance.methods.mintPrice().call();
+          // console.log(mintPrice);
           let txTransfer = {
             from: result[0],
             to: contractAddress,
